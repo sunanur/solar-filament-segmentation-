@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Competition dataset & cached tensors (do not commit raw Kaggle data)
+data/
+cache/
+*.npy
+*.npz
+*.zip
+
+# Model checkpoints & serialized artifacts
+weights/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# Submissions & logs
+outputs/
+out/
+submissions/
+submission*.csv
+*.log
+
+# Credentials & local environment
+.env
+.venv/
+venv/
+kaggle.json
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
